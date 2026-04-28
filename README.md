@@ -24,6 +24,8 @@ C and C++ source files are built using a build.sh script (Linux) or build.bat ba
 
 C and C++ source files will compile on both Linux and Windows, except for the source code in the cpp/win directory which contains Windows affinity examples.
 
+Python examples are cross-platform and should work on both Linux and Windows.
+
 ## Building on Linux
 
 The source code examples use gcc, g++ and the hwloc library. To install the components, open a terminal and run the following commands:
@@ -47,15 +49,18 @@ Download a ZIP File containing the source code from https://github.com/eightaper
 The source code examples require the Community Edition of Visual Studio which is free and can be downloaded from https://visualstudio.microsoft.com/.
 
 The examples require a Visual Studio Command Prompt which can be opened by pressing the Windows key or clicking on the Windows launch icon. Change the view to list:
-<img width="100%" height="25%" alt="image" src="https://github.com/user-attachments/assets/e4b54f64-d975-4a38-ae88-f6f83ca6288d" />
+
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/2c131a3f-5e3e-402e-9016-8516eab48593" />
+
+
 Locate Visual Studio 2026 (or 2022) and click on the menu list:
 
-<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/ed35f9ce-99e7-446c-a0e9-daf3251f1911" />
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/26fb794d-5ec4-426e-a649-4bbf9c65d572" />
 
 
 Select the Native Tools Command Prompt:
 
-<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/c6bdde18-966a-4bc2-a9f2-168ebdd90124" />
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/09e5e448-f3f2-4d6c-9a57-8b9700e788b7" />
 
 
 Run the following commands to build the source code - alter the paths to match your own configuration:
