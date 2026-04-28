@@ -49,13 +49,13 @@ inline bool isPrime (const uint64_t num)
 			__m128d SIMDDiv = _mm_unpacklo_pd(valHi, valLo);
 
 			// Produce a mod result
-			__m128d q = _mm_div_pd(SIMDNum, SIMDDiv);
-			__m128d t = _mm_floor_pd(q);
-			__m128d m = _mm_mul_pd(t, SIMDDiv);
-			__m128d r = _mm_sub_pd(SIMDNum, m);
+			__m128d divRslt = _mm_div_pd(SIMDNum, SIMDDiv);
+			__m128d flrRslt = _mm_floor_pd(divRslt);
+			__m128d mulRslt = _mm_mul_pd(flrRslt, SIMDDiv);
+			__m128d remRslt = _mm_sub_pd(SIMDNum, mulRslt);
 
 			// Convert to SIMD integer
-			__m128i SIMDInt = _mm_castpd_si128(r);
+			__m128i SIMDInt = _mm_castpd_si128(remRslt);
 
 			// Extract high and low values
 			uint64_t lo = _mm_extract_epi64(SIMDInt, 0);
