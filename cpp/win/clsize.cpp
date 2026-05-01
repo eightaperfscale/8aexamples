@@ -36,7 +36,6 @@ int GetCLSize (void)
     }
 
     // Iterate over the buffer find cache information
-    DWORD CLSize = 0;
     DWORD entryOffset = 0;
     while (entryOffset < procInfoSize)
     {
