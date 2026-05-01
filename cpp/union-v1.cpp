@@ -18,7 +18,7 @@ int main (void)
 	auto byte0 = ourUnion.bytes [0];
 
 	std::cout << "X is " << std::hex << ourUnion.x << std::endl;
-	std::cout << "Byte 1 is " << byte0 << std::endl;
+	std::cout << "First byte is " << byte0 << std::endl;
 
 	return 0;
 }
