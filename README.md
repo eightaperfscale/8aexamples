@@ -50,8 +50,7 @@ The source code examples require the Community Edition of Visual Studio which is
 
 The examples require a Visual Studio Command Prompt which can be opened by pressing the Windows key or clicking on the Windows launch icon. Change the view to list:
 
-<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/2c131a3f-5e3e-402e-9016-8516eab48593" />
-
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/3a994380-ce5b-454a-a432-a00c8a607d01" />
 
 Locate Visual Studio 2026 (or 2022) and click on the menu list:
 
@@ -91,7 +90,7 @@ To assemble the examples on Linux, open a terminal and run the following command
         nasm spinlock-v1.s
         nasm spinlock-v2.s
 
-Machine code will be located in the spinlock-v1 and spinlock-v1 files. To run the samples:
+Machine code will be located in the spinlock-v1 and spinlock-v2 files. To run the samples:
 
         ../output/testharness spinlock-v1
         ../output/testharness spinlock-v2
@@ -109,7 +108,7 @@ To assemble the examples on Windows, open a Command Prompt run the following com
         nasm spinlock-v1.s
         nasm spinlock-v2.s
 
-Machine code will be located in the spinlock-v1 and spinlock-v1 files. To run the samples:
+Machine code will be located in the spinlock-v1 and spinlock-v2 files. An elevated Command Prompt might be required e.g., run the Command Prompt as Administrator. To run the samples:
 
         ..\output\testharness spinlock-v1
         ..\output\testharness spinlock-v2
