@@ -50,7 +50,7 @@ The source code examples require the Community Edition of Visual Studio which is
 
 The examples require a Visual Studio Command Prompt which can be opened by pressing the Windows key or clicking on the Windows launch icon. Change the view to list:
 
-<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/3a994380-ce5b-454a-a432-a00c8a607d01" />
+<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/3b3dc52f-2a0b-441b-83c4-97cbaee7be59" />
 
 Locate Visual Studio 2026 (or 2022) and click on the menu list:
 
