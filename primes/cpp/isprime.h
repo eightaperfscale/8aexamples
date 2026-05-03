@@ -11,15 +11,16 @@
 // Determine if a number is a prime
 inline bool isPrime (const uint64_t num)
 {
-	if (num <= 4)
-	{
-		if (num == 2 || num == 3)
-		{
-			return true;
-		}
-
-		return false;
-	}
+    // Filter smaller numbers as the mod 6 algorithm
+    // only works with numbers > 3
+    if (num <= 4)
+    {
+        if (num == 2 || num == 3)
+        {
+            return true;
+        }
+        return false;
+    }
 
     // Only interested in remainder 1 and 5
     const uint64_t rem = num % 6;
