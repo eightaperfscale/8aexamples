@@ -38,7 +38,7 @@ int main (void)
 	}
 
     // Allocate the CPU Set buffer
-	std::vector<BYTE> CPUSets(CPUSetLen);
+	std::vector<uint8_t> CPUSets(CPUSetLen);
 
     // Get the CPU Set information
     if (!GetSystemCpuSetInformation(TO_CPUSET_PTR(CPUSets.data()), CPUSetLen, &CPUSetLen, nullptr, 0))
