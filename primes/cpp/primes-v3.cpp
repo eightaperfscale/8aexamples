@@ -27,7 +27,7 @@ int main (void)
         return 1;
     }
 
-    // Deal with the rest of the number range
+    // Deal with the full number range
     for (uint64_t num = first; num <= last; num ++)
     {
         if (isPrime(num))
